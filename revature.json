@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/OuterJoinTest.java",
+      "testCases": [
+        {
+          "methodName": "activityOuterJoin1",
+          "label": "Validates successful left outer join operation",
+          "description": "Checks that the left outer join statement was properly executed by comparing the results against the expected output."
+        },
+        {
+            "methodName": "activityOuterJoin2",
+            "label": "Validates successful right outer join operation",
+            "description": "Checks that the right outer join statement was properly executed by comparing the results against the expected output"
+        }
+      ]
+    }
+  ]
+}
